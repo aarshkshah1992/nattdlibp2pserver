@@ -7,6 +7,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/ipfs/go-log"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-core/event"
 	"github.com/libp2p/go-libp2p-core/network"
@@ -18,6 +19,7 @@ import (
 )
 
 func main() {
+	log.SetLogLevel("p2p/holepunch", "INFO")
 	relayPeerId := os.Getenv("RELAY_PEER_ID")
 	if len(relayPeerId) == 0 {
 		panic(errors.New("need a relay peer ID"))
