@@ -4,7 +4,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"os"
 	"time"
 
 	"github.com/ipfs/go-log"
@@ -20,23 +19,15 @@ import (
 
 func main() {
 	log.SetLogLevel("p2p/holepunch", "INFO")
-	relayPeerId := os.Getenv("RELAY_PEER_ID")
-	if len(relayPeerId) == 0 {
-		panic(errors.New("need a relay peer ID"))
-	}
-	relayAddrs := os.Getenv("RELAY_ADDR")
-	if len(relayAddrs) == 0 {
-		panic(errors.New("need a relay server addr"))
-	}
-	relayId, err := peer.Decode(relayPeerId)
+
+	relayId, err := peer.Decode("Qma71QQyJN7Sw7gz1cgJ4C66ubHmvKqBasSegKRugM5qo6")
 	if err != nil {
 		panic(err)
 	}
-
 	relayInfo := []peer.AddrInfo{
 		{
 			ID:    relayId,
-			Addrs: []ma.Multiaddr{ma.StringCast(relayAddrs)},
+			Addrs: []ma.Multiaddr{ma.StringCast("/ip4/54.255.209.104/tcp/12001"), ma.StringCast("/ip4/54.255.209.104/udp/12001/quic")},
 		},
 	}
 
