@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	log.SetLogLevel("p2p/holepunch", "INFO")
+	log.SetLogLevel("p2p-holepunch", "INFO")
 
 	relayId, err := peer.Decode("Qma71QQyJN7Sw7gz1cgJ4C66ubHmvKqBasSegKRugM5qo6")
 	if err != nil {
@@ -66,14 +66,6 @@ LOOP:
 		}
 	}
 
-	fmt.Println("\n server peer id is: ", h.ID().Pretty())
-	fmt.Println("-----------------------------------------------------------------------------------------------------------------------------------")
-	fmt.Println("server addrs are:")
-	for _, a := range h.Addrs() {
-		fmt.Println(a)
-	}
-	fmt.Println("-----------------------------------------------------------------------------------------------------------------------------------")
-
 	// get NAT types for TCP & UDP
 	for i := 0; i < 2; i++ {
 		select {
@@ -90,6 +82,15 @@ LOOP:
 			panic(errors.New("could not find NAT type"))
 		}
 	}
+
+	fmt.Println("\n server peer id is: ", h.ID().Pretty())
+	fmt.Println("-----------------------------------------------------------------------------------------------------------------------------------")
+	fmt.Println("server addrs are:")
+	for _, a := range h.Addrs() {
+		fmt.Println(a)
+	}
+	fmt.Println("-----------------------------------------------------------------------------------------------------------------------------------")
+
 	fmt.Println("\n------------------------------------------------------------------------------------------------------------------------------------")
 	fmt.Println("accepting connections now")
 
