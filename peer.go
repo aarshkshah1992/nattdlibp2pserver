@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	log.SetLogLevel("p2p-holepunch", "INFO")
+	log.SetLogLevel("p2p-holepunch", "DEBUG")
 
 	relayId, err := peer.Decode("Qma71QQyJN7Sw7gz1cgJ4C66ubHmvKqBasSegKRugM5qo6")
 	if err != nil {

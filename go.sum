@@ -255,6 +255,10 @@ github.com/libp2p/go-libp2p v0.8.1/go.mod h1:QRNH9pwdbEBpx5DTJYg+qxcVaDMAz3Ee/qD
 github.com/libp2p/go-libp2p v0.12.0/go.mod h1:FpHZrfC1q7nA8jitvdjKBDF31hguaC676g/nT9PgQM0=
 github.com/libp2p/go-libp2p v0.13.1-0.20210222052127-30c5b0b6f597 h1:+H2ukTA/RQwrRIaqSUjNCJgM8fB2JOK9kNPGSRpoeLk=
 github.com/libp2p/go-libp2p v0.13.1-0.20210222052127-30c5b0b6f597/go.mod h1:8rjnIczhxMe/Q+RIal8ScfZ5Yv7/HC4rJRQHutJp+Fs=
+github.com/libp2p/go-libp2p v0.13.1-0.20210222083103-2d3c67ca11fc h1:jP6/ae7t4kqKzOQNxRgpDfg1OAFH3z63Ii9yiXdmGt4=
+github.com/libp2p/go-libp2p v0.13.1-0.20210222083103-2d3c67ca11fc/go.mod h1:8rjnIczhxMe/Q+RIal8ScfZ5Yv7/HC4rJRQHutJp+Fs=
+github.com/libp2p/go-libp2p v0.13.1-0.20210222083433-832565922c0d h1:zCLGMw654tGLysNLOL55YX5kjdbjornIWPrtygkeaTA=
+github.com/libp2p/go-libp2p v0.13.1-0.20210222083433-832565922c0d/go.mod h1:8rjnIczhxMe/Q+RIal8ScfZ5Yv7/HC4rJRQHutJp+Fs=
 github.com/libp2p/go-libp2p-asn-util v0.0.0-20200825225859-85005c6cf052 h1:BM7aaOF7RpmNn9+9g6uTjGJ0cTzWr5j9i9IKeun2M8U=
 github.com/libp2p/go-libp2p-asn-util v0.0.0-20200825225859-85005c6cf052/go.mod h1:nRMRTab+kZuk0LnKZpxhOVH/ndsdr2Nr//Zltc/vwgo=
 github.com/libp2p/go-libp2p-autonat v0.1.1/go.mod h1:OXqkeGOY2xJVWKAGV2inNF5aKN/djNA3fdpCWloIudE=
@@ -335,8 +339,8 @@ github.com/libp2p/go-libp2p-pnet v0.2.0 h1:J6htxttBipJujEjz1y0a5+eYoiPcFHhSYHH6n
 github.com/libp2p/go-libp2p-pnet v0.2.0/go.mod h1:Qqvq6JH/oMZGwqs3N1Fqhv8NVhrdYcO0BW4wssv21LA=
 github.com/libp2p/go-libp2p-quic-transport v0.10.0 h1:koDCbWD9CCHwcHZL3/WEvP2A+e/o5/W5L3QS/2SPMA0=
 github.com/libp2p/go-libp2p-quic-transport v0.10.0/go.mod h1:RfJbZ8IqXIhxBRm5hqUEJqjiiY8xmEuq3HUDS993MkA=
-github.com/libp2p/go-libp2p-quic-transport v0.10.1-0.20210220094603-36b091edc877 h1:8+jhd0HVqGBjjb9VxzTp0aIoeWeMtcMykFl3VgdvheI=
-github.com/libp2p/go-libp2p-quic-transport v0.10.1-0.20210220094603-36b091edc877/go.mod h1:4TZT/BjY5mIaM6VJ3HfF3zlZlF8A3wMmBUc94SlQImA=
+github.com/libp2p/go-libp2p-quic-transport v0.10.1-0.20210222072925-4a4310d2b4a2 h1:9MHrSXayhY6j8A1APmTlhW5EpMA6BFFyrgBjbibJx8s=
+github.com/libp2p/go-libp2p-quic-transport v0.10.1-0.20210222072925-4a4310d2b4a2/go.mod h1:4TZT/BjY5mIaM6VJ3HfF3zlZlF8A3wMmBUc94SlQImA=
 github.com/libp2p/go-libp2p-record v0.1.2/go.mod h1:pal0eNcT5nqZaTV7UGhqeGqxFgGdsU/9W//C8dqjQDk=
 github.com/libp2p/go-libp2p-record v0.1.3 h1:R27hoScIhQf/A8XJZ8lYpnqh9LatJ5YbHs28kCIfql0=
 github.com/libp2p/go-libp2p-record v0.1.3/go.mod h1:yNUff/adKIfPnYQXgp6FQmNu3gLJ6EMg7+/vv2+9pY4=
