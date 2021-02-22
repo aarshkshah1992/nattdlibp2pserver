@@ -14,6 +14,3 @@ require (
 	github.com/multiformats/go-multiaddr v0.3.1
 	google.golang.org/protobuf v1.25.0 // indirect
 )
-
-
-replace github.com/libp2p/go-libp2p => /Users/aarshshah/go/src/github.com/libp2p/go-libp2p
